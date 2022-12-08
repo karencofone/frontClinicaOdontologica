@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const useInput = () => {
+const useInput = (type, name, placeholder) => {
     const [value, setValue] = useState()
     const onChange = (e) =>{
         setValue(e.target.value)
@@ -9,6 +9,9 @@ const useInput = () => {
 return {
     value,
     onChange,
+    type,
+    name,
+    placeholder
 }
 }
 

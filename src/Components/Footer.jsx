@@ -1,8 +1,11 @@
 import React from 'react'
+import { ContextGlobal } from './utils/global.context'
+import { useContext } from 'react'
 
 const Footer = () => {
+  const {theme} = useContext(ContextGlobal)
   return (
-    <footer>
+    <footer style={{background: theme.footBackground, color: theme.color}}>
       <div>
         <p>Powered by</p>
         <img src="./img/DH.png" alt='DH-logo'/>

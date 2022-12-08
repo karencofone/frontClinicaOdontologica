@@ -10,7 +10,7 @@ const Navbar = () => {
 const { theme, handleTheme} = useContext(ContextGlobal)
 
   return (
-    <nav className={"nav " +  theme.className}>
+    <nav className="nav" style={{background: theme.navBackground, color: theme.color}}>
       <Link to={'/'}><h2>DH Odonto</h2></Link>
       <div className='divNav'>
       <Link to={'/'}>Home</Link>
