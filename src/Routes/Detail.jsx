@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import { ContextGlobal } from '../Components/utils/global.context';
 
 
 
 const Detail = () => {
+  const {theme} = useContext(ContextGlobal)
 const params = useParams()
 const [dentist, setDentist] = useState({});
 useEffect(() => {
@@ -17,7 +19,7 @@ useEffect(() => {
 
 
   return (
-    <>
+    <div style={{background: theme.homeBackground, color: theme.color}}>
       <h1>Detail Dentist {dentist.id}</h1>
       <table>
         <thead>
@@ -37,7 +39,7 @@ useEffect(() => {
           </tr>
         </tbody>
       </table>
-    </>
+    </div>
   )
 }
 
