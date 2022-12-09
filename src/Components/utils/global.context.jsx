@@ -3,7 +3,7 @@ export const initialState = {
     themes: {
         light:{
           navBackground: "",
-          footBackground: "rgb(204, 204, 204)",
+          footBackground: "rgb(218, 218, 218)",
           cardBackground: "rbga(255,255,255,.3)",
           homeBackground:"rgb(255,255,255)",
           color: "rgb(0,0,0)",
@@ -11,7 +11,7 @@ export const initialState = {
 
         }, 
         dark:{
-          navBackground:"rgb(29, 19, 59)",
+          navBackground:"rgb(32, 37, 61)",
           footBackground:"rgba(19, 20, 19, 0.7)",
           cardBackground:"rgb(34, 34, 34);",
           homeBackground:"rgba(18, 18, 18, 0.59)",

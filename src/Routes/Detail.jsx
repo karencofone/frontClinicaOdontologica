@@ -19,7 +19,7 @@ useEffect(() => {
 
 
   return (
-    <div style={{background: theme.homeBackground, color: theme.color}}>
+    <div className='detail' style={{background: theme.homeBackground, color: theme.color}}>
       <h1>Detail Dentist {dentist.id}</h1>
       <table>
         <thead>

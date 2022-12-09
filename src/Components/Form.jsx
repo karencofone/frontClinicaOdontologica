@@ -8,14 +8,13 @@ const email = useInput('email','email', "email")
 const [msg, setMsg] = useState();
 const validEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email.value)
 const validName = /^.{5,}$/.test(name.value)
-console.log(name.value);
 
 const onClick = (e) =>{
   e.preventDefault();
   if(validEmail && validName){
     setMsg(`Thanks ${name.value} our team will contact you soon!`)
   } else{
-    setMsg('Error pelotuda')
+    setMsg('Error, please verify your info again')
   }
 }
   return (

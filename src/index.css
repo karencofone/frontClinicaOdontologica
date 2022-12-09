@@ -28,7 +28,6 @@ nav{
   justify-content:space-between;
   position: relative;
   padding: 1rem;
-  cursor: pointer;
 
 
 }
@@ -46,8 +45,8 @@ a:hover{
 
 footer {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
+  /* text-align: center; */
   padding: 2rem;
   position: relative;
   bottom: 0;
@@ -56,15 +55,19 @@ footer {
   margin-top: 2rem;
 }
 
-footer > img{
-  width: 200px;
-  margin: 0;
-}
-footer > p{
-  margin: 0;
-  padding-top: 0.7rem;
-}
 
+
+.logoDH{
+  max-width: 200px;
+}
+.divRedes{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.redes{
+  max-height: 25px;
+}
 form{
   display: flex;
   flex-direction: column;
@@ -134,4 +137,19 @@ tr:nth-child(even) {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.icono span{
+  color: red;
+}
+
+.contact{
+  margin-bottom: 25rem;
+}
+
+.favs{
+  margin-bottom: 25rem;
+}
+
+.detail{
+  margin-bottom: 25rem;
 }
