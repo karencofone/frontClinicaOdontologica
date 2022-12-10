@@ -13,9 +13,8 @@ const addFav = ()=>{
 
 };
 
-
   return (
-    <div className="card" style={{background: theme.cardBackground, color: theme.color}}>
+    <div className="card" style={{background: theme.cardBackground}}>
         <img src={img} alt="image doctor"/>
         <h2><Link to={`/${id}`}>{name}</Link></h2>
         <h3>{username}</h3>

@@ -15,6 +15,7 @@ export const initialState = {
           footBackground:"rgba(19, 20, 19, 0.7)",
           cardBackground:"rgb(34, 34, 34);",
           homeBackground:"rgba(18, 18, 18, 0.59)",
+          backgroundButton: "rbga(255,255,255,.3)",
           color:"rgb(255,255,255)",
           inverted: "invert(1)"
         }} ,
