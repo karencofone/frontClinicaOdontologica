@@ -10,7 +10,7 @@ import tiktok from "../images/ico-tiktok.png";
 const Footer = () => {
   const {theme} = useContext(ContextGlobal)
   return (
-    <footer clasName="footer" style={{background: theme.footBackground, color: theme.color}}>
+    <footer className="footer" style={{background: theme.footBackground, color: theme.color}}>
       <div className='logo'>
         <img className="logoDH" src={logo} alt='DH-logo'/>
       </div>
