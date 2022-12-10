@@ -76,6 +76,15 @@ footer {
   max-height: 25px;
 }
 
+.contact{
+  padding: 0 3rem 20rem 3rem;
+}
+
+.contact h2{
+  margin-top: 0;
+  padding-top: 3rem;
+}
+
 form{
   display: flex;
   flex-direction: column;
@@ -85,10 +94,13 @@ form{
   margin: 0 auto;
 }
 
-.contact p{
-  background-color: red;
+form input{
+  margin-bottom: 10px;
 }
 
+.contact p{
+  margin-bottom: 3rem;
+}
 
 .card{
   display: flex;
@@ -162,15 +174,6 @@ tr:nth-child(even) {
 
 .icono span{
   color: red;
-}
-
-.contact{
-  padding: 0 3rem 20rem 3rem;
-}
-
-.contact h2{
-  margin-top: 0;
-  padding-top: 3rem;
 }
 
 .favs{
